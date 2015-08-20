@@ -1,0 +1,52 @@
+@import url('header.css');
+@import url('content.css');
+@import url('footer.css');
+
+label, p {
+	font-family: 'Manual SSi', 'Helvetica';
+	font-size: 15px;
+	display: block;
+}
+
+.helvetica {
+	font-family: 'Helvetica';
+	display: inline;
+}
+
+.line {
+	background-color: #363636;
+	height: 2px;
+	width: 100%;
+	margin: 4px 0px;
+}
+
+.lineContent {
+	background-color: #DDDDDD;
+	height: 4px;
+	width: 100%;
+	margin: 8px 0px;
+}
+
+#header {
+	position: absolute;
+	top: -45px;
+	left: 0px;
+	height: 150px;
+	width: 100%;
+	/*background-color: #0000CC;*/
+}
+
+#content {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+
+#footer {
+	position: absolute;
+	bottom: -45px;
+	width: 100%;
+	height: 150px;
+	/*background-color: #0000CC;*/
+	text-align: center;
+}

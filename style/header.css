@@ -1,0 +1,34 @@
+#div_header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 40px;
+	background-color: #AAAAAA; 
+}
+
+#label_sitename {
+	position: fixed;
+	top: 5px;
+	left: 10px;
+	height: 30px;
+	width: 257px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#select_kunde {
+	top: 8px;
+	left: 300px;
+	width: 250px;
+	height: 24px;
+}
+
+#button_kunde_new {
+	top: 4px;
+	left: 555px;
+}
+
+#button_extras {
+	top: 4px;
+	right: 5px;
+}

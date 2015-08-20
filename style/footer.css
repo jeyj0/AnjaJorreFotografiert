@@ -1,0 +1,26 @@
+#div_footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 40px;
+	background-color: #AAAAAA;
+}
+
+#button_bemerkung {
+	position: absolute;
+	top: 4px;
+	left: 5px;
+}
+
+#button_kundenbeziehung {
+	position: absolute;
+	top: 4px;
+	left: 42px;
+}
+
+#img_copyright {
+	right: 10px;
+	bottom: 10px;
+	height: 20px;
+	width: 115px;
+}

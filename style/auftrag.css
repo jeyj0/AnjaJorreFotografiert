@@ -1,0 +1,25 @@
+@import url('auftraginfos.css');
+@import url('rechnungsinfos.css');
+
+#div_auftrag {
+	top: 40px;
+	right: 0px;
+	height: calc(100% - 80px);
+	width: calc(50% - 10px);
+	/*background-color: #FFAAFF; /* Only for debugging */
+}
+
+#div_auftraginfos {
+	width: 40%;
+	top: 10px;
+	height: calc(100% - 20px);
+	/*background-color: #FFFF66; /* Only for debugging */
+}
+
+#div_rechnung {
+	top: 10px;
+	height: calc(100% - 20px);
+	right: 20px;
+	width: calc(60% - 30px);
+	/*background-color: #AAFFFF; /* Only for debugging */
+}

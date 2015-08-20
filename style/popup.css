@@ -1,0 +1,188 @@
+div.popup {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #fff;
+	border-width: 1px;
+	border-color: #000;
+	padding: 10px 10px;
+	width: auto;
+	height: auto;
+	
+	display: none;
+	
+	-moz-box-shadow: 0px 0px 8px #666;
+	-webkit-box-shadow: 0px 0px 8px #666;
+	box-shadow: 0px 0px 8px #666;
+}
+
+label.popupTitle {
+	font-weight: bold;
+	font-size: large;
+	position: relative;
+	height: 32px;
+	left: 5px;
+	top: 5px;
+}
+
+img.popupButtonDel {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+img.popupButtonOk {
+	position: absolute;
+	right: 47px;
+	top: 10px;
+}
+
+div.popupLine {
+	position: relative;
+	height: 1px;
+	background-color: #222;
+	width: 100%;
+	margin: 5px 0 5px 0;
+	left: 0px;
+}
+
+div#popup_graybg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #aaaaaa;
+	opacity: 0.5;
+	
+	display: none;
+}
+
+/*
+ * newKunde
+ */
+div#popup_newKunde {
+	position: absolute;
+	width: 395px;
+	left: calc(50% - 197.5px);
+	height: 100px;
+	top: calc(50% - 35px - 100px);
+}
+
+select#newKunde_selectAnrede {
+	position: relative;
+	width: 75px;
+	left: 5px;
+}
+
+input#newKunde_inputFirstName {
+	position: relative;
+	width: 150px;
+	top: -25px;
+	left: 85px;
+}
+
+input#newKunde_inputLastName {
+	position: relative;
+	width: 150px;
+	top: -50px;
+	left: 240px;
+}
+
+select#newKunde_selectGefundenUeber {
+	position: relative;
+	width: 388px;
+	left: 5px;
+	top: -45px;
+}
+
+/* 
+ * newAuftrag
+ */
+div#popup_newAuftrag {
+	position: absolute;
+	width: 310px;
+	left: calc(50% - 155px);
+	height: 70px;
+	top: calc(50% - 35px - 100px);
+}
+
+select#newAuftrag_selectArt {
+	position: relative;
+	width: 170px;
+	left: 0px;
+	top: 0px;
+}
+
+input#newAuftrag_inputDatum {
+	position: relative;
+	width: 130px;
+	left: calc(5px + 170px);
+	top: -25px;
+}
+
+/* 
+ * newRechnung
+ */
+div#popup_newRechnung {
+	position: absolute;
+	width: 205px;
+	left: calc(50% - 102.5px);
+	height: 90px;
+	top: calc(50% - 45px - 100px);
+}
+
+input#newRechnung_inputDatum {
+	position: relative;
+	width: 200px;
+}
+
+input#newRechnung_checkNachbestellung {
+	position: relative;
+}
+
+label#newRechnung_labelNachbestellung {
+	position: relative;
+	top: -17px;
+	left: 15px;
+}
+
+/* 
+ * newAdresse
+ */
+div#popup_newAdresse {
+	position: absolute;
+	width: 270px;
+	left: calc(50% - 102.5px);
+	height: 95px;
+	top: calc(50% - 45px - 100px);
+}
+
+input#newAdresse_inputAb {
+	position: relative;
+	width: 260px;
+	left: 5px;
+}
+
+input#newAdresse_inputBis {
+	position: relative;
+	width: 260px;
+	top: 5px;
+	left: 5px;
+}
+
+/* 
+ * standardRgpos
+ */
+div#popup_standardRgpos {
+	position: absolute;
+	width: auto;
+	height: auto;
+	display: none;
+}
+
+div.standardRgpos {
+	position: relative;
+	width: auto;
+	height: 20px;
+}

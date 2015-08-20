@@ -1,0 +1,101 @@
+#div_adresse {
+	position: relative;
+	height: auto;
+	top: 15px;
+	/*background-color: #AAAAAA; /* Only for debugging */
+}
+
+#label_adresse {
+	left: 5px;
+	font-weight: bold;
+}
+
+#input_unbekanntVerzogen {
+	position: absolute;
+	left: 75px;
+	top: -2px;
+}
+
+#label_unbekanntVerzogen {
+	position: absolute;
+	left: 90px;
+	top: 0px;
+}
+
+#input_strasse {
+	display: inline-block;
+	left: 5px;
+	width: calc(75% - 10px);
+}
+
+#input_hausnummer {
+	display: inline-block;
+	left: 5px;
+	width: calc(25% - 10px);
+}
+
+#input_adresszusatz {
+	display: inline-block;
+	top: 5px;
+	left: 5px;
+	width: calc(100% - 14px);
+}
+
+#input_postleitzahl {
+	display: inline-block;
+	top: 10px;
+	left: 5px;
+	width: calc(25% - 10px);
+}
+
+#input_ort {
+	display: inline-block;
+	top: 10px;
+	left: 5px;
+	width: calc(75% - 10px);
+}
+
+#input_land {
+	display: inline-block;
+	top: 15px;
+	left: 5px;
+	width: calc(100% - 14px);
+}
+
+#label_gueltigab {
+	display: inline-block;
+	top: 20px;
+	left: 5px;
+}
+
+#input_gueltigab {
+	display: inline-block;
+	top: 20px;
+	left: 5px;
+	width: calc((100% - 111px) / 2 + 2px);
+}
+
+#label_gueltigbis {
+	display: inline-block;
+	top: 20px;
+	left: 5px;
+}
+
+#input_gueltigbis {
+	display: inline-block;
+	top: 20px;
+	left: 5px;
+	width: calc((100% - 111px) / 2 + 2px);
+}
+
+#button_adresseleft {
+	display: inline-block;
+	top: 25px;
+	left: calc(50% - 76px);
+}
+
+#button_adressenew, #button_adressedel, #button_adresseright {
+	display: inline-block;
+	top: 25px;
+	left: calc(50% - 76px);
+}

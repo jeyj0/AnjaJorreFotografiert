@@ -1,0 +1,34 @@
+#div_kundenname {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 34px;
+	/*background-color: #666666; /* Only for debugging */
+}
+
+#select_anrede {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	width: calc(20% - 10px);
+}
+
+#input_vorname {
+	position: absolute;
+	left: 20%;
+	top: 5px;
+	width: calc(40% - 7px - 40px);
+}
+
+#input_name {
+	position: absolute;
+	left: calc(60% - 40px);
+	top: 5px;
+	width: calc(40% - 7px);
+}
+
+#button_kunde_del {
+	position: absolute;
+	right: 5px;
+	top: 1px;
+}

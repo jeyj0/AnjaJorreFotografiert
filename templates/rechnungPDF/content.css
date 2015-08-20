@@ -1,0 +1,56 @@
+@import url('table.css');
+
+#contentTitel {
+	text-align: center;
+	text-transform: none;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#contentKundenadresse {
+	position: relative;
+	top: 20px;
+	left: 0px;
+	/*background-color: #0000CC;*/
+}
+
+#contentRechnungsinformationen {
+	position: relative;
+	top: 40px;
+	/*background-color: #CCCC00;*/
+}
+
+#contentRechnungsnummer {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	/*background-color: #CC00CC;*/
+	font-weight: bold;
+}
+
+#contentRechnungsdatum {
+	right: 0px;
+	display: inline-block;
+	width: 50%;
+	height: 0px;
+	text-align: right;
+	font-weight: bold;
+	/*background-color: #00CC00;*/
+}
+
+#contentLinebeforePos {
+	position: relative;
+	top: 50px;
+}
+
+#contentRechnungsinhalt {
+	position: relative;
+	top: 70px;
+}
+
+#contentText {
+	position: relative;
+	top: 90px;
+	font-size: 12px;
+}

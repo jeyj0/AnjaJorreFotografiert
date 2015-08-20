@@ -1,0 +1,139 @@
+@import url('auswertung.css');
+
+div#div_selectExtra {
+	position: absolute;
+	top: 36px;
+	right: 5px;
+	width: auto;
+	height: auto;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+div.extraOption {
+	position: relative;
+	height: 20px;
+	width: 250px;
+	background-color: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 5px;
+}
+div.extraOption:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+div#div_extraBody {
+	display: none;
+	top: 40px;
+	height: calc(100% - 100px);
+	width: calc(100% - 20px);
+	padding: 10px;
+}
+
+div#div_cfg_gefundenUeber {
+	width: calc(100% - 57px);
+	height: calc(100% - 25px);
+	display: none;
+}
+
+textarea#cfg_gefundenUeber {
+	width: 100%;
+	height: 100%;
+	resize: none;
+	font-family: Courier;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+img#save_cfg_gefundenUeber {
+	top: 0px;
+	right: -42px;
+	position: absolute;
+}
+
+div#div_cfg_rgpos {
+	width: calc(100% - 57px);
+	height: calc(100% - 25px);
+	display: none;
+}
+
+textarea#cfg_rgpos {
+	width: 100%;
+	height: 100%;
+	resize: none;
+	font-family: Courier;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+img#save_cfg_rgpos {
+	top: 0px;
+	right: -42px;
+	position: absolute;
+}
+
+div#div_auswertungen {
+	display: none;
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+}
+
+div#div_auswertungen > #div_menu {
+	position: relative;
+	height: auto;
+	width: calc(100% - 20px);
+	border-left: 1px solid #777;
+}
+
+div#div_auswertungen > #div_menu > #div_mode {
+	height: 30px;
+	width: 200px;
+	border-right: 1px solid #777;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #777;
+	position: relative;
+	background-color: #eee;
+	float: left;
+}
+
+div#div_auswertungen > #div_menu > #div_mode > #mode {
+	height: calc(100% / 10 * 8);
+	width: calc(100% / 20 * 18);
+	left: calc(100% / 20 * 1);
+	top: calc(100% / 10 * 1);
+}
+
+div#div_auswertungen > #div_menu > .menuItem {
+	position: relative;
+	height: 15px;
+	width: auto;
+	left: 0px;
+	top: 0px;
+	border-right: 1px solid #777;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #777;
+	background-color: #eee;
+	float: left;
+	padding: 7px 8px 8px 8px;
+	cursor: pointer;
+	font-weight: bold;
+}
+div#div_auswertungen > #div_menu > .menuItem:hover {
+	background-color: #ddd;
+}
+div#div_auswertungen > #div_menu > .menuItem.disabled {
+	font-weight: normal;
+	color: #aaa;
+}
+div#div_auswertungen > #div_menu > .menuItem.disabled:hover {
+	background-color: #eee;
+	cursor: default;
+}
+
+div.div_auswertung_container {
+	top: 40px;
+	height: calc(100% - 40px);
+}

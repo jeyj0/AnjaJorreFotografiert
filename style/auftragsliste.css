@@ -1,0 +1,16 @@
+#select_auftraege {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: calc(100% - 37px);
+}
+
+#button_auftrag_new {
+	left: calc(50% - 35px);
+	bottom: 0px;
+}
+
+#button_auftrag_import {
+	left: calc(50% + 2px);
+	bottom: 0px;
+}

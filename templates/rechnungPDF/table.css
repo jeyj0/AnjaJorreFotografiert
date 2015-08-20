@@ -1,0 +1,74 @@
+#contentRechnungstabelle {
+	width: 100%;
+}
+
+tr {
+	width: 100%;
+	font-family: 'Manual SSi', 'Helvetica';
+	border-right: 0px;
+	border-left: 0px;
+}
+
+th {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	border-bottom: solid 2px #999999;
+	font-family: 'Manual SSi', 'Helvetica';
+}
+
+td {
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+	border-bottom: solid 1px #EEEEEE;
+	font-family: 'Manual SSi', 'Helvetica';
+}
+
+#tableHeadBezeichnung {
+	width: 70%;
+}
+
+#tableHeadAnzahl {
+	width: 4%;
+}
+
+#tableHeadEinzel {
+	width: 13%;
+}
+
+#tableHeadGesamt {
+	width: 13%;
+}
+
+td.bezeichnung {
+	text-align: left;
+}
+
+td.gesamt {
+	font-weight: bold;
+}
+
+td.einzel, td.gesamt {
+	text-align: right;
+}
+
+#gesamtBezeichnung {
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #DDDDDD;
+	width: 80%;
+	border-top: solid 1px #000000;
+	border-bottom: double 3px #000000;
+}
+
+#gesamtPreis {
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #DDDDDD;
+	width: 20%;
+	border-top: solid 1px #000000;
+	border-bottom: double 3px #000000;
+}

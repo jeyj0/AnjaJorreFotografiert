@@ -1,0 +1,119 @@
+<div class="auswertung_div">
+	<div class="auswertung_jahr">
+	<label class="auswertung_label">Jahr</label>
+	<label class="auswertung_label">XXXX,xx &euro;</label>
+		<table class="auswertung_table">
+			<tr>
+				<td class="auswertung_quartal1" colspan="3">
+					<label class="auswertung_label">1. Quartal</label>
+				</td>
+				<td class="auswertung_quartal2" colspan="3">
+					<label class="auswertung_label">2. Quartal</label>
+				</td>
+				<td class="auswertung_quartal3" colspan="3">
+					<label class="auswertung_label">3. Quartal</label>
+				</td>
+				<td class="auswertung_quartal4" colspan="3">
+					<label class="auswertung_label">4. Quartal</label>
+				</td>
+			</tr>
+			<tr class="auswertung_tr2">
+				<td class="auswertung_quartal1b" colspan="3">
+					<label class="auswertung_label">XXXX,xx &euro;</label>
+				</td>
+				<td class="auswertung_quartal2b" colspan="3">
+					<label class="auswertung_label">XXXX,xx &euro;</label>
+				</td>
+				<td class="auswertung_quartal3b" colspan="3">
+					<label class="auswertung_label">XXXX,xx &euro;</label>
+				</td>
+				<td class="auswertung_quartal4b" colspan="3">
+					<label class="auswertung_label">XXXX,xx &euro;</label>
+				</td>
+			</tr>
+			<tr class="auswertung_tr3">
+			<!-- Q1 -->
+					<td class="auswertung_monat1">
+					Jan
+					</td>
+					<td class="auswertung_monat">
+					Feb
+					</td>
+					<td class="auswertung_monat">
+					M&auml;r
+					</td>
+			<!-- Q2 -->
+					<td class="auswertung_monat">
+					Apr
+					</td>
+					<td class="auswertung_monat">
+					Mai	
+					</td>
+					<td class="auswertung_monat">
+					Jun
+					</td>
+			<!-- Q3 -->
+					<td class="auswertung_monat">
+					Jul
+					</td>
+					<td class="auswertung_monat">
+					Aug
+					</td>
+					<td class="auswertung_monat">
+					Sep
+					</td>
+			<!-- Q4 -->
+					<td class="auswertung_monat">
+					Okt
+					</td>
+					<td class="auswertung_monat">
+					Nov
+					</td>
+					<td class="auswertung_monat">
+					Dez
+					</td>
+			</tr>
+			<tr>
+					<td class="auswertung_monat1b">
+					XXXX,xx &euro;
+					</td>
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+			<!-- Q2 -->
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;	
+					</td>
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+			<!-- Q3 -->
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+			<!-- Q4 -->
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+					<td class="auswertung_monatb">
+					XXXX,xx &euro;
+					</td>
+			</tr>
+		</table>
+	</div>
+</div>

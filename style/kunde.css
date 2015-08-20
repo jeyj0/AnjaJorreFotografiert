@@ -1,0 +1,80 @@
+@import url('kundenname.css');
+@import url('telefon_email.css');
+@import url('adresse.css');
+@import url('auftragsliste.css');
+
+#div_kunde {
+	top: 40px;
+	left: 0px;
+	height: calc(100% - 80px);
+	width: 50%;
+	/*background-color: #FFFFAA; /* Only for debugging */
+}
+
+#div_kundeninfos {
+	left: 10px;
+	top: 10px;
+	height: calc(100% - 20px);
+	width: calc(70% - 15px);
+	/*background-color: #FFAAAA; /* Only for debugging */
+}
+
+#div_bemerkung {
+	width: 25%;
+	height: 25%;
+	left: 5px;
+	bottom: 50px;
+	
+	display: none;
+	
+	background-color: #fff;
+	
+	padding: 10px 10px 10px 10px;
+	
+	-moz-box-shadow: 0px 0px 4px #666;
+	-webkit-box-shadow: 0px 0px 4px #666;
+	box-shadow: 0px 0px 4px #666;
+}
+
+#txtarea_bemerkung {
+	width: calc(100% - 5px);
+	height: calc(100% - 5px);
+	resize: none;
+}
+#txtarea_bemerkung {
+	-moz-box-shadow: 0px 0px 0px #fff;
+	-webkit-box-shadow: 0px 0px 4px #fff;
+	box-shadow: 0px 0px 0px #fff;
+}
+.anim_bemerkung_open {
+	-webkit-animation: bemerkung_open 0.3s linear 1;
+	animation: bemerkung_open 0.3s linear 1;
+}
+.anim_bemerkung_close {
+	-webkit-animation: bemerkung_close 0.3s linear 1;
+	animation: bemerkung_close 0.3s linear 1;
+}
+@keyframes bemerkung_open {
+	0% {transform: scale(0, 0);display: block;}
+	100% {transform: scale(1, 1);display: block;}
+}
+@-webkit-keyframes bemerkung_open {
+	0% {-webkit-transform: scale(0, 0);}
+	100% {-webkit-transform: scale(1, 1);}
+}
+@keyframes bemerkung_close {
+	0% {transform: scale(1, 1);}
+	100% {transform: scale(0, 0);}
+}
+@-webkit-keyframes bemerkung_close {
+	0% {-webkit-transform: scale(1, 1);}
+	100% {-webkit-transform: scale(0, 0);}
+}
+
+#div_auftraege {
+	height: calc(100% - 20px);
+	width: calc(30% - 5px);
+	top: 10px;
+	right: 0px;
+	/*background-color: #AAFFAA; /* Only for debugging */
+}

@@ -1,0 +1,67 @@
+.auswertung_table{
+	width:100%;
+	border-collapse:collapse;
+}
+
+.auswertung_quartal1{
+	width:25%;
+	display:inline-block;
+	text-align:center;
+}
+
+.auswertung_quartal1b{
+	width:25%;
+	display:inline-block;
+	text-align:center;
+	border-bottom:1px solid black;
+}
+
+.auswertung_quartal2, .auswertung_quartal3, .auswertung_quartal4{
+	width:25%;
+	display:inline-block;
+	text-align:center;
+	border-left:1px solid black;
+}
+
+.auswertung_quartal2b, .auswertung_quartal3b, .auswertung_quartal4b{
+	width:25%;
+	display:inline-block;
+	text-align:center;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+}
+
+.auswertung_monat{
+	text-align:center;
+	width:calc(100% / 12);
+	border-left:1px solid black;
+}
+
+.auswertung_monat1{
+	text-align:center;
+	width:calc(100% / 12);
+}
+
+.auswertung_monatb{
+	text-align:center;
+	width:calc(100% / 12);
+	border-left:1px solid black;
+}
+
+.auswertung_monat1b{
+	text-align:center;
+	width:calc(100% / 12);
+}
+
+.auswertung_label{
+	display:block;
+	text-align: center;
+}
+
+.auswertung_tr2{
+	border-bottom:1px solid black;
+}
+
+td, tr{
+	padding:0px;
+}

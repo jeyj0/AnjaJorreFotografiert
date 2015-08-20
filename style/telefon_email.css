@@ -1,0 +1,59 @@
+#div_telefone {
+	position: relative;
+	height: auto;
+	top: 5px;
+	/*background-color: #AAAAAA; /* Only for debugging */
+}
+
+#div_emails {
+	position: relative;
+	height: auto;
+	top: 10px;
+	/*background-color: #AAAAAA; /* Only for debugging */
+}
+
+#label_telefon, #label_email {
+	left: 5px;
+	font-weight: bold;
+}
+
+.div_telefonnummer, .div_email {
+	height: 37px;
+	position: relative;
+	top: 5px;
+	width: 100%;
+}
+
+.div_telefonnummer > .input_telefonnummer, .div_email > .input_email {
+	position: absolute;
+	left: 5px;
+	top: 3px;
+	width: calc(50% - 2px);
+}
+
+.div_telefonnummer > .select_erreichbar, .div_email > .select_emailtyp {
+	position: absolute;
+	left: calc(50% + 10px);
+	top: 3px;
+	width: calc(50% - 10px - 3px - 37px);
+}
+
+.div_telefonnummer > .deleteTelefon, .div_email > .deleteEmail {
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+
+#div_telefone_box, #div_emails_box {
+	height: auto;
+}
+
+#div_telefone_buttons, #div_emails_buttons {
+	height: auto;
+	top: 10px;
+}
+
+#button_telefon_new, #button_email_new {
+	left: calc(100% - 37px);
+	bottom: 0px;
+}

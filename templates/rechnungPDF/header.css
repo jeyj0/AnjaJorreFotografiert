@@ -1,0 +1,18 @@
+#headerKamera {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 150px;
+}
+
+#headerName {
+	position: absolute;
+	right: 0px;
+	font-size: 50px;
+}
+
+#headerLine {
+	position: absolute;
+	top: 148px; /* Manuell gerechnet: egtl. bottom: 0px; siehe #header-height */
+}

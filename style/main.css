@@ -1,0 +1,145 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('kunde.css');
+@import url('auftrag.css');
+@import url('popup.css');
+
+html, body, iframe, div, label, p, span, input, select, img {
+	position: inherit;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: "Manual SSi", "Arial";
+	font-size: 15px;
+	overflow: visible;
+}
+
+option {
+	background-color: #fff;
+}
+
+/* 
+ * removes the blue border created by chrome...
+ */
+:focus, :active {
+	outline: none; 
+}
+
+html, body, iframe {
+	overflow: hidden;
+}
+
+input, select, textarea {
+	height: 23px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #AAA;
+	background-color: #ffffff;
+}
+select, textarea {
+	height: 25px;
+}
+textarea {
+	resize: vertical;
+	font-family: "Manual SSi", "Arial";
+}
+
+input:enabled:hover, select:enabled:hover, textarea:enabled:hover {
+	border-color: #555;
+}
+input:enabled:focus, select:enabled:focus, textarea:enabled:focus {
+	-moz-box-shadow: 0px 0px 4px #666;
+	-webkit-box-shadow: 0px 0px 4px #666;
+	box-shadow: 0px 0px 4px #666;
+}
+
+input[type="checkbox"]:focus {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+input:disabled {
+	background-color: #eee;
+}
+
+html, body, iframe, div {
+ 	position: absolute;
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+div {
+	position: inherit;
+}
+
+/*
+ * sets the background of selected elements to a light gray except of standard blue/orange
+ */
+::selection {
+	background: #ccc;
+}
+::-moz-selection {
+	background: #ccc;
+}
+
+div.load {
+	-webkit-animation: spin 1.5s linear infinite;
+	animation: spin 1.5s linear infinite;
+	
+	background-image: url('../resources/load.png');
+	-webkit-background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: 50px;
+	background-size: 50px;
+	
+	width: 100%;
+	height: 100%;
+}
+
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spin {
+	0% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(360deg);}
+}
+
+.button {
+	width: 32px;
+	height: 32px;
+}
+
+.button:hover {
+	-moz-box-shadow: 0px 0px 4px #666;
+	-webkit-box-shadow: 0px 0px 4px #666;
+	box-shadow: 0px 0px 4px #666;
+}
+
+.button:active {
+	-moz-box-shadow: inset 1px 1px 4px #000;
+	-webkit-box-shadow: inset 1px 1px 4px #000;
+	box-shadow: inset 1px 1px 4px #000;
+}
+
+#iframe_mainload {
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+div#div_header {
+	-moz-box-shadow: 0px 0px 4px #000;
+	-webkit-box-shadow: 0px 0px 4px #000;
+	box-shadow: 0px 0px 4px #000;
+}
+
+div#div_footer {
+	-moz-box-shadow: 0px 0px 4px #000;
+	-webkit-box-shadow: 0px 0px 4px #000;
+	box-shadow: 0px 0px 4px #000;
+}
