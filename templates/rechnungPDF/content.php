@@ -13,27 +13,15 @@ include_once '../../classes/Database.php';
 @$kunde = $db->fetch_all_array("SELECT k.id, k.vorname, k.name
 					FROM kunde k WHERE k.id = ".@$auftrag['kunde_id']); @$kunde = @$kunde[0];
 @$positionen = $db->fetch_all_array("SELECT p.bezeichnung, p.anzahl, p.einzelpreis FROM rechnungsposition p WHERE geloescht != 1 AND p.rechnung_id = ".@$rechnungID);
-@$adresse = $db->fetch_all_array("SELECT a.strasse, a.hausnummer hnr, a.adresszusatz zusatz, a.postleitzahl plz, a.ort, a.land FROM adresse a WHERE a.geloescht != 1 AND a.kunde_id = ".@$kunde['id']);
-	foreach (@$adresse as $a) {
-		@$a['gueltig_ab'] = intval(substr($a['gueltig_ab'], 0, 4).substr($a['gueltig_ab'], 5, 2).substr($a['gueltig_ab'], 8, 2));
-		@$a['gueltig_bis'] = intval(substr($a['gueltig_bis'], 0, 4).substr($a['gueltig_bis'], 5, 2).substr($a['gueltig_bis'], 8, 2));
-	}
-	function filterLaterAdresses($var) {
-		if ($var['gueltig_ab'] > $datum) {
-			return false;
-		}
-		return true;
-	}
-	
-	function filterBeforeAdresses($var) {
-		if ($var['gueltig_bis'] < $datum) {
-			return false;
-		}
-		return true;
-	}
-	@$adresse = array_filter(@$adresse, "filterLaterAdresses");
-	@$adresse = array_filter(@$adresse, "filterBeforeAdresses");
-	@asort($adresse);
+
+// select most recent address
+@$adresse = $db->fetch_all_array(
+	"SELECT a.strasse, a.hausnummer hnr, a.adresszusatz zusatz, a.postleitzahl plz, a.ort, a.land
+	 FROM adresse a
+	 WHERE a.geloescht != 1
+	 AND a.kunde_id = " . @$kunde['id'] ."
+	 ORDER BY a.gueltig_bis, a.gueltig_ab DESC
+	 LIMIT 0,1");
 	@$adresse = @$adresse[0];
 
 @$contentHTML = "";

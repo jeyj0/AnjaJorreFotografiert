@@ -23,6 +23,7 @@
 		$sql = "SELECT MAX(id) + 1 FROM adresse";
 		$nextID = $db -> fetch_array( $db -> query($sql) );
 		$sql = "INSERT INTO adresse (id, kunde_id, gueltig_ab, gueltig_bis, land) VALUES (" . $nextID[0] . ", " . $kundeID . ", \"" . $gueltigAb . "\", \"" . $gueltigBis . "\", \"Deutschland\")";
+
 		$res = $db -> query($sql);
 		
 		if ($res == "1") {
@@ -32,7 +33,7 @@
 				$befGueltigBis = date("Y-m-d", strtotime($gueltigAb . "-1 day"));
 				$befAdressID = $headers['lastAdressID'];
 				
-				$args = array("gueltigBis"=>$befGueltigBis, "adressID"=>$befAdressID);
+				$args = array("gueltigBis" => $befGueltigBis, "adressID" => $befAdressID);
 				$httpargs = http_build_query($args);
 				// yes, very complicated...
 				$url = "http://" . $_SERVER['HTTP_HOST'] . substr($_SERVER['REQUEST_URI'], 0, strlen($_SERVER['REQUEST_URI']) - strlen(__FILE__)) . 'update_adresseGueltigBis.php?' . $httpargs;

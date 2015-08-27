@@ -144,6 +144,6 @@ class Database {
 }
 
 include_once 'Database.php';
-$db = new Database('localhost', 'ajfadmin', 'bennet2001', $conn='fotomanagement');
+$db = new Database('localhost', 'ajfadmin', 'asdwer', $conn='ajfadmin_fotomanagement');
 
 ?>
